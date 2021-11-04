@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Gemunu+Libre&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Gemunu Libre', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.calculator{
+    width: 350px;
+    height: 500px;
+}
+
+#num{
+    font-size: 4rem;
+    padding: 20px;
+    color: hsl(0, 0%, 100%);
+    background: hsl(225, 6%, 13%);
+    display: block;
+    text-align: end;
+    user-select: none;
+}
+
+.buttons{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    height: 350px;
+}
+
+.btn{
+    font-size: 3.2rem;
+    border: 1px solid hsl(225, 6%, 13%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    user-select: none;
+}
