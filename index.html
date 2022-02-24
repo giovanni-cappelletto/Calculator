@@ -4,34 +4,73 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Calculator - Giovanni Cappelletto</title>
+    <title>Calculator</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="style.css">
     <script src="script.js" defer></script>
 </head>
-<body>
-    <div class="calculator">
-        <span id="num">0</span>
-        <div class="buttons">
-            <div class="seven btn">7</div>
-            <div class="eight btn">8</div>
-            <div class="nine btn">9</div>
-            <div class="plus btn">+</div>
-
-            <div class="four btn">4</div>
-            <div class="five btn">5</div>
-            <div class="six btn">6</div>
-            <div class="minus btn">-</div>
-
-            <div class="one btn">1</div>
-            <div class="two btn">2</div>
-            <div class="three btn">3</div>
-            <div class="times btn">*</div>
-
-            <div class="zero btn">0</div>
-            <div class="canc btn">CE</div>
-            <div class="divide btn">/</div>
-            <div class="equal btn">=</div>
+<body>    
+    <div class="grid-container">
+        <div class="wrapper">
+            <div class="display">
+                <p class="display-operation"></p>
+                <p class="numbers"></p>
+            </div>
         </div>
+    
+        <div class="item delete">AC</div>
+        <div class="item delete-all operation">C</div>
+        <div class="item percent">%</div>
+        <div class="item division operation">/</div>
+        
+        <div class="item seven number">7</div>
+        <div class="item eight number">8</div>
+        <div class="item nine number">9</div>
+        <div class="item multiplication operation">*</div>
+
+        <div class="item four number">4</div>
+        <div class="item five number">5</div>
+        <div class="item six number">6</div>
+        <div class="item minus operation">-</div>
+
+        <div class="item one number">1</div>
+        <div class="item two number">2</div>
+        <div class="item three number">3</div>
+        <div class="item plus operation">+</div>
+
+        <div class="item dot number">.</div>
+        <div class="item zero number">0</div>
+        <div class="item equal">=</div>
     </div>
+
+    <div class="btn">
+        <i class="fa-solid fa-ellipsis icon"></i>
+    </div>
+
+    <section>
+        <h1>This are the shortcuts</h1>
+        <ul>
+            <li>Delete Backspace</li>
+            <li>Delete All \</li>
+            <li>Percent %</li>
+            <li>Division /</li>
+            <li>Seven 7</li>
+            <li>Eight 8</li>
+            <li>Nine 9</li>
+            <li>Multiplication *</li>
+            <li>Four 4</li>
+            <li>Five 5</li>
+            <li>Six 6</li>
+            <li>Minus -</li>
+            <li>One 1</li>
+            <li>Two 2</li>
+            <li>Three 3</li>
+            <li>Plus +</li>
+            <li>Dot .</li>
+            <li>Zero 0</li>
+            <li>Equal =</li>
+        </ul>
+    </section>
 </body>
+</html>
 </html>
